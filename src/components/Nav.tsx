@@ -9,6 +9,7 @@ const links = [
   { label: 'Portfolio', href: '#work' },
   { label: 'About Me', href: '#story' },
   { label: 'Experience', href: '#faq' },
+  { label: 'Contact', href: '#contact' },
 ]
 
 export default function Nav() {

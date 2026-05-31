@@ -7,6 +7,7 @@ import Story from '@/components/Story'
 import Work from '@/components/Work'
 import FAQ from '@/components/FAQ'
 import CTABanner from '@/components/CTABanner'
+import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <Work />
         <FAQ />
         <CTABanner />
+        <Contact />
       </main>
       <Footer />
     </>
