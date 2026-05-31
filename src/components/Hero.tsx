@@ -159,7 +159,6 @@ export default function Hero() {
             </div>
             <div>
               <p className="text-[0.78rem] font-bold text-t1">15+ companies worked with me</p>
-              <p className="text-[0.72rem] text-t2">Novartis, Bayer, Merck, AstraZeneca &amp; more</p>
             </div>
           </motion.div>
         </div>
