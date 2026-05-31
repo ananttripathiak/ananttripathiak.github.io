@@ -67,14 +67,8 @@ export default function Contact() {
         body: JSON.stringify({ access_key: '60f24c9e-ce54-4763-a151-d52e485a6f6d', ...form }),
       })
       const data = await res.json()
-      if (data.success) {
-        setStatus('success')
-      } else {
-        console.error('Web3Forms error:', data)
-        setStatus('error')
-      }
-    } catch (err) {
-      console.error('Form submit error:', err)
+      setStatus(data.success ? 'success' : 'error')
+    } catch {
       setStatus('error')
     }
   }
