@@ -12,7 +12,7 @@ export default function CTABanner() {
       <div className="pointer-events-none absolute inset-0 border-y border-accent/15" />
       <div className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] rounded-full bg-[radial-gradient(ellipse,rgba(37,99,235,0.12),transparent_70%)]" />
 
-      <div className="max-w-[1200px] mx-auto px-12 relative z-10">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12 relative z-10">
         <motion.h2
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -42,7 +42,7 @@ export default function Nav() {
           : 'bg-transparent'
       }`}
     >
-      <div className="max-w-[1200px] mx-auto px-12 h-full flex items-center justify-between">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12 h-full flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2.5">
           <div className="w-[34px] h-[34px] bg-accent rounded-[8px] flex items-center justify-center text-white text-xs font-black">

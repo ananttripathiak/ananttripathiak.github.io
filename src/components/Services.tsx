@@ -79,7 +79,7 @@ const cardVariants = {
 export default function Services() {
   return (
     <section id="services" className="py-24 bg-bg">
-      <div className="max-w-[1200px] mx-auto px-12">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}

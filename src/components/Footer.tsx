@@ -35,7 +35,7 @@ export default function Footer() {
   return (
     <footer className="bg-bg-2 border-t border-white/[0.06]">
       {/* Top */}
-      <div className="max-w-[1200px] mx-auto px-12 pt-9 pb-7 flex flex-wrap items-center justify-between gap-6">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12 pt-9 pb-7 flex flex-wrap items-center justify-between gap-6">
         {/* Logo */}
         <div className="flex items-center gap-2.5">
           <div className="w-8 h-8 bg-accent rounded-[7px] flex items-center justify-center text-white text-[0.7rem] font-black">AT</div>
@@ -69,7 +69,7 @@ export default function Footer() {
       </div>
 
       {/* Mid */}
-      <div className="max-w-[1200px] mx-auto px-12 py-5 border-t border-white/[0.06] flex flex-wrap gap-8">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12 py-5 border-t border-white/[0.06] flex flex-wrap gap-8">
         {[
           { icon: <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />, extra: <polyline points="22,6 12,13 2,6" />, text: 'ananttripathiakt@gmail.com' },
           { icon: <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.12 1.18 2 2 0 012.11 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.56 6.56l1.27-.45a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />, text: '+91 9521609916' },
@@ -86,7 +86,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom */}
-      <div className="max-w-[1200px] mx-auto px-12 py-4 border-t border-white/[0.06] flex flex-wrap justify-between items-center gap-3">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12 py-4 border-t border-white/[0.06] flex flex-wrap justify-between items-center gap-3">
         <p className="text-[0.73rem] text-t3">© 2026 Anant Tripathi. All rights reserved.</p>
         <div className="flex gap-5">
           <a href="#" className="text-[0.73rem] text-t3 hover:text-t2 transition-colors">Privacy Policy</a>

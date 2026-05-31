@@ -97,7 +97,7 @@ export default function Hero() {
       <div className="pointer-events-none absolute top-0 right-0 w-[700px] h-[700px] rounded-full bg-[radial-gradient(circle,rgba(37,99,235,0.12)_0%,transparent_65%)]" />
       <div className="pointer-events-none absolute bottom-0 left-0 w-[500px] h-[500px] rounded-full bg-[radial-gradient(circle,rgba(124,58,237,0.08)_0%,transparent_65%)]" />
 
-      <div className="max-w-[1200px] mx-auto px-12 w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12 w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
         {/* Left */}
         <div>
           <motion.div {...fade(0.1)} className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-accent/10 border border-accent/20 rounded-full text-[0.75rem] text-accent-light font-semibold tracking-wider mb-6">
@@ -170,7 +170,7 @@ export default function Hero() {
           transition={{ duration: 0.9, ease: 'easeOut', delay: 0.3 }}
           className="flex items-center justify-center relative"
         >
-          <div className="relative w-[380px] h-[380px] lg:w-[460px] lg:h-[460px]">
+          <div className="relative w-full max-w-[380px] mx-auto aspect-square lg:max-w-[460px]">
             {/* Rotating rings */}
             <div className="absolute inset-0 rounded-full animate-spin-slow opacity-40 bg-[conic-gradient(from_0deg,transparent,#2563eb,transparent,rgba(37,99,235,0.2),transparent)]" />
             <div className="absolute -inset-4 rounded-full animate-spin-reverse opacity-30 bg-[conic-gradient(from_180deg,transparent,rgba(124,58,237,0.4),transparent)]" />

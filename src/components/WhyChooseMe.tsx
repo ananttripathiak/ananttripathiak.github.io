@@ -28,7 +28,7 @@ const reasons = [
 export default function WhyChooseMe() {
   return (
     <section id="why" className="py-24 bg-bg-2">
-      <div className="max-w-[1200px] mx-auto px-12">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}

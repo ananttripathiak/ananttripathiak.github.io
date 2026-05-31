@@ -81,7 +81,7 @@ export default function Contact() {
       <div className="pointer-events-none absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-[radial-gradient(circle,rgba(37,99,235,0.07)_0%,transparent_65%)]" />
       <div className="pointer-events-none absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[radial-gradient(circle,rgba(124,58,237,0.06)_0%,transparent_65%)]" />
 
-      <div className="max-w-[1200px] mx-auto px-12 relative z-10">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12 relative z-10">
         {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 24 }}

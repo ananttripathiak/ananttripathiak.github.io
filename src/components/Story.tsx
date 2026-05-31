@@ -30,7 +30,7 @@ const stats = [
 export default function Story() {
   return (
     <section id="story" className="py-24 bg-bg">
-      <div className="max-w-[1200px] mx-auto px-12">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[72px] items-center">
           {/* Left */}
           <motion.div
