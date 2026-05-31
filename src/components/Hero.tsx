@@ -136,7 +136,7 @@ export default function Hero() {
             <a
               href="/Anant_Tripathi_Resume.pdf"
               download="Anant_Tripathi_Resume.pdf"
-              className="inline-flex items-center gap-2 px-7 py-3.5 border border-accent/40 text-accent-light text-[0.88rem] font-semibold rounded-[10px] hover:border-accent hover:bg-accent/10 hover:-translate-y-0.5 transition-all duration-200"
+              className="inline-flex items-center gap-2 px-7 py-3.5 bg-accent text-white text-[0.88rem] font-bold rounded-[10px] hover:bg-accent-light hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(37,99,235,0.4)] transition-all duration-200"
             >
               <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16" />
