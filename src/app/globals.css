@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0c0d15;
+  --card: #13141f;
+  --blue: #2563eb;
+  --blue-light: #3b82f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0c0d15;
+  color: #f8fafc;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #0c0d15; }
+::-webkit-scrollbar-thumb { background: #2563eb; border-radius: 3px; }
+
+/* Blue text highlight */
+::selection { background: rgba(37,99,235,0.3); color: #fff; }
+
+/* FAQ accordion transition */
+.faq-body {
+  transition: max-height 0.35s ease, padding 0.35s ease;
+}
