@@ -7,7 +7,7 @@ const isGitHubActions = !!process.env.GITHUB_ACTIONS
 
 // Set to '' if your repo is named <username>.github.io
 // Otherwise GitHub Actions will auto-detect the repo name
-const basePath = isGitHubActions && repo !== 'ananttripathi.github.io' ? `/${repo}` : ''
+const basePath = isGitHubActions && repo !== 'ananttripathiak.github.io' ? `/${repo}` : ''
 
 const nextConfig: NextConfig = {
   output: 'export',
