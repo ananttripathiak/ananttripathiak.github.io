@@ -71,12 +71,24 @@ export default function Nav() {
         </ul>
 
         {/* CTA */}
-        <a
-          href="#cta"
-          className="hidden md:inline-flex items-center px-5 py-2 border border-accent rounded-[8px] text-[0.82rem] font-semibold text-accent hover:bg-accent hover:text-white transition-all duration-200"
-        >
-          Hire Me
-        </a>
+        <div className="hidden md:flex items-center gap-3">
+          <a
+            href="/Anant_Tripathi_Resume.pdf"
+            download="Anant_Tripathi_Resume.pdf"
+            className="inline-flex items-center gap-1.5 px-4 py-2 text-[0.82rem] font-semibold text-t2 hover:text-accent-light transition-colors duration-200"
+          >
+            <svg className="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16" />
+            </svg>
+            Resume
+          </a>
+          <a
+            href="#cta"
+            className="inline-flex items-center px-5 py-2 border border-accent rounded-[8px] text-[0.82rem] font-semibold text-accent hover:bg-accent hover:text-white transition-all duration-200"
+          >
+            Hire Me
+          </a>
+        </div>
 
         {/* Hamburger */}
         <button
@@ -110,6 +122,17 @@ export default function Nav() {
                   {l.label}
                 </a>
               ))}
+              <a
+                href="/Anant_Tripathi_Resume.pdf"
+                download="Anant_Tripathi_Resume.pdf"
+                onClick={() => setMenuOpen(false)}
+                className="inline-flex items-center justify-center gap-2 px-5 py-2.5 border border-accent/40 rounded-[8px] text-sm font-semibold text-accent-light hover:bg-accent/10 transition-all duration-200"
+              >
+                <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16" />
+                </svg>
+                Download Resume
+              </a>
               <a
                 href="#cta"
                 onClick={() => setMenuOpen(false)}

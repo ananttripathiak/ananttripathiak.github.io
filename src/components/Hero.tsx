@@ -133,6 +133,16 @@ export default function Hero() {
             >
               View Portfolio
             </a>
+            <a
+              href="/Anant_Tripathi_Resume.pdf"
+              download="Anant_Tripathi_Resume.pdf"
+              className="inline-flex items-center gap-2 px-7 py-3.5 border border-accent/40 text-accent-light text-[0.88rem] font-semibold rounded-[10px] hover:border-accent hover:bg-accent/10 hover:-translate-y-0.5 transition-all duration-200"
+            >
+              <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16" />
+              </svg>
+              Download CV
+            </a>
           </motion.div>
 
           <motion.div {...fade(0.5)} className="flex items-center gap-3.5">
