@@ -61,13 +61,13 @@ export default function Contact() {
     e.preventDefault()
     setStatus('sending')
     try {
-      const res = await fetch('https://formsubmit.co/ajax/ananttripathiak@gmail.com', {
+      const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ ...form, _subject: form.subject }),
+        body: JSON.stringify({ access_key: '60f24c9e-ce54-4763-a151-d52e485a6f6d', ...form }),
       })
       const data = await res.json()
-      setStatus(data.success === 'true' || data.success === true ? 'success' : 'error')
+      setStatus(data.success ? 'success' : 'error')
     } catch {
       setStatus('error')
     }
